@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@500;700&family=Open+Sans:wght@400;700&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+}
+
+:root {
+  --color-dark-blue: #3f3d56;
+  --color-pink: #ee24ff;
+  --color-gray-light: #828282;
+  --color-snow-white: #eceff2;
+}
+
+body {
+  
+}
