@@ -17,6 +17,7 @@
 body {
   text-align: center;
   font-size: 15px;
+  height: 100vh;
 }
 
 #main {
@@ -58,6 +59,12 @@ p span {
 
 /* FOOTER */
 
+footer {
+  margin: 0px;
+  padding: 0px;
+  min-width: 626px;
+}
+
 .line {
   border: 1px solid var(--color-snow-white);
   width: 391px;
@@ -68,6 +75,13 @@ footer a {
   text-decoration: none;
   font-weight: bold;
   color: var(--color-dark-blue);
-  border: 1px solid red;
+}
+
+footer a + a {
   margin-left: 42px;
+}
+
+#wave {
+  margin-top: 40px;
+  width: 100%;
 }
