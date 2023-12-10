@@ -15,5 +15,27 @@
 }
 
 body {
-  
+  text-align: center;
+  font-size: 15px;
+}
+
+#main img {
+  width: 350px;
+}
+
+#main h1 {
+  font-family: "Dosis", sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  color: var(--color-dark-blue);
+}
+
+h1 span {
+  font-weight: bold;
+  color: var(--color-pink);
+}
+
+p {
+  line-height: 22px;
+  color: var(--color-gray-light]);
 }
